@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+
+        #navbar {
+            background-color: #333;
+            padding: 1em;
+            text-align: center;
+        }
+
+        #navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+            font-size: 1.2em;
+            margin: 0 1em;
+            transition: color 0.3s ease;
+        }
+
+        #navbar a:hover {
+            color: #3498db;
+        }
+
+        #hero {
+            position: relative;
+            width: 100%;
+            height: 60vh; /* Adjust the height as needed */
+            background: url('space-background.jpg') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        #overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        #hero-content {
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 1.5em;
+        }
+
+        a {
+            display: inline-block;
+            padding: 1em 2em;
+            background-color: #3498db;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #2980b9;
+        }
+
+        #about-content {
+            padding: 3em;
+            text-align: left;
+            background-color: #f4f4f4;
+        }
+
+        h2 {
+            color: #333;
+        }
+    </style>
+    <title>About Space Website</title>
+</head>
+<body>
+
+<div id="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+</div>
+
+<div id="hero">
+    <div id="overlay"></div>
+    <div id="hero-content">
+        <h1>About Our Space Adventure</h1>
+        <p>Embark on a journey to explore the wonders of the universe and discover the mysteries beyond our planet.</p>
+        <a href="#explore">Explore Now</a>
+    </div>
+</div>
+
+<div id="about-content">
+    <h2>Our Mission</h2>
+    <p>Welcome to SpaceQuestHub, where our mission is to ignite the curiosity of space enthusiasts and provide a platform for exploring the vast cosmos. We believe in making the wonders of the universe accessible to everyone.</p>
+
+    <h2>Team</h2>
+    <p>Meet our passionate team of space enthusiasts who are dedicated to bringing you the latest discoveries, breathtaking images, and engaging articles about space. We are scientists, astronomers, and storytellers united by our love for the cosmos.</p>
+
+    <h2>Why SpaceQuestHub?</h2>
+    <p>At SpaceQuestHub, we strive to inspire a sense of wonder and curiosity about the universe. Whether you're a seasoned astronomer or someone just starting to gaze at the stars, we have something for everyone. Explore our articles, dive into the gallery, and join us on this cosmic journey.</p>
+</div>
+
+</body>
+</html>
